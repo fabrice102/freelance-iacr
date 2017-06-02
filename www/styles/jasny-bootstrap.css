@@ -229,7 +229,9 @@
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  /*NOTE: right border of navbar below*/
+  border-color: #182A2E;
+  /*NOTE: original value #e7e7e7;*/
 }
 .navmenu-default .navmenu-brand,
 .navbar-default .navbar-offcanvas .navmenu-brand {
