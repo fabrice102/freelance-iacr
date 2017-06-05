@@ -1,12 +1,32 @@
 /* NOTE: currently working on, color palette here: http://www.colourlovers.com/palette/4500807/ocean_rose */
+/*TODO: definitely some extraneous code here so will need to check similarities with main.css and delete repetitious code*/
 
+
+/***** General styling *****/
 body {
   background-color: #F9FBFC;
+  color: #001317;
+  /*font-family: 'Georgia', serif;
+  font-size: 1em;*/
 }
 
+a {
+  color: #006F88;
+}
+
+a:hover {
+  color: #C62400;
+  text-decoration: none;
+}
+
+
+/***** Nav (in /fragments/nav.html) *****/
 nav#mainmenu {
-  background-color: #182A2E;
-  /*NOTE: transparent doesn't do as well on mobile, so I took a swatch of this color via sip, which resulted in above rgba(0, 19, 23, 0.9);*/
+  background-color: rgba(0, 19, 23, 0.95);
+}
+
+nav#mainmenu a {
+  color: #F9FBFC;
 }
 
 .navHeader {
@@ -24,31 +44,24 @@ nav#mainmenu {
   box-shadow: 0 0 50px #006F88;*/
 }
 
+
+/***** Header (found in ./index.html) *****/
 .headerGradient {
-  background: #006F88;
-  background: -webkit-linear-gradient(left, #182A2E , #006F88);
-  background: -o-linear-gradient(right, #182A2E, #006F88);
-  background: -moz-linear-gradient(right, #182A2E, #006F88);
-  background: linear-gradient(to right, #182A2E , #006F88);
-  /*background: rgba(0, 111, 136, 0.7);
-  background: -webkit-linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
-  background: -o-linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
-  background: -moz-linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
-  background: linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));*/
+  background: rgba(0, 111, 136, 0.8);
+  background: -webkit-linear-gradient(left, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: -o-linear-gradient(right, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: -moz-linear-gradient(right, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: linear-gradient(to right, rgba(0, 19, 23, 0.95) , rgba(0, 111, 136, 0.8));
 }
 
 .headerTitle {
-  color: #006F88;
+  color: #F9FBFC;
 }
 
 .headerInfoTop {
-  color: #006F88;
+  color: #001317;
 }
 
 .headerInfoBottom {
-  color: #006F88;
-}
-
-nav#mainmenu a {
-  color: #F9FBFC;
+  color: #001317;
 }
