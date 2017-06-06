@@ -65,3 +65,13 @@ nav#mainmenu a {
 .headerInfoBottom {
   color: #001317;
 }
+
+
+/***** Main Content: general styling *****/
+.pageSubtitle {
+  color: #006F88;
+}
+
+.dateTitle {
+  color: #006F88;
+}
